@@ -40,7 +40,7 @@ div.reserva{
     margin-left: 1000px;
     height: 620px;
     width: 20%;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.616);
    
 }  
 .con1{
@@ -54,8 +54,8 @@ div.reserva{
    
 }
 .con2{
-    position: relative;
-    top: -5%;
+    position: absolute;
+    margin-top: -30px;
     width: 20%;
     height: 30px;
     left: 50%;
@@ -77,8 +77,8 @@ div.reserva{
 
 }
 .con4{
-    position: relative;
-    top: -10%;
+    position: absolute;
+    margin-top: -80px;
     width: 20%;
     height: 30px;
     left: 50%;
@@ -88,8 +88,9 @@ div.reserva{
 
 }
 .con5{
-    position: relative;
+    position: absolute;
     margin-left: 30%;
+    margin-bottom: -30px;
     width: 20%;
     height: 30px;
     font-family: cursive;
@@ -216,6 +217,7 @@ div.final{
 h4{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     color: cornsilk;
     height: 6%;  
 
