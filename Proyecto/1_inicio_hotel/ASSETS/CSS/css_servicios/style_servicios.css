@@ -1,9 +1,30 @@
 body{
+    background-color: rgba(87, 58, 94, 0.281);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+button{
+    display: inline-block;
+    width: 80px;
+    top: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 40px 5px antiquewhite;
+    font-size: 12px;
+    font-family: cursive;
+    color: azure;
+    background-color: rgba(255, 255, 224, 0.103);
+    border: none;
+    
+}
+button:hover{
+    box-shadow: 0px 0px 40px 5px gold ;
+
+}
+
 div.logy{
     display: flex;
     flex-direction: row;
@@ -12,6 +33,7 @@ div.logy{
     text-align: left;
     align-items: flex-start;
     height: 40px;
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -29,7 +51,56 @@ div.tema{
   
 }
 
+div.ser{
+    position: relative;
+    background-color: rgb(103, 93, 124);
+    width: 34.5%;
+    height: 50%;
+    color: seashell;
+    border: 5px double rgb(236, 205, 101);
+    margin-left: 13%;
+    padding: 5px;
+
+}
+
+div.sera{
+    position: relative;
+    background-color: rgb(103, 93, 124);
+    width: 34.5%;
+    height: 50%;
+    color: seashell;
+    border: 5px double rgb(236, 205, 101);
+    margin-left: 60%;
+    padding: 5px;
+}
+
+div.zera{
+    position: relative;
+    background-color: rgb(103, 93, 124);
+    width: 26%;
+    height: 50%;
+    color: seashell;
+    border: 5px double rgb(236, 205, 101);
+    margin-left: 15%;
+    padding: 5px;
+}
+
+div.zer{
+    position: relative;
+    background-color: rgb(103, 93, 124);
+    width: 30%;
+    height: 50%;
+    color: seashell;
+    border: 5px double rgb(236, 205, 101);
+    margin-left: 60%;
+    padding: 5px;
+}
+
+
+
+
 div.semi > p{
+
     text-align: center;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,19 +108,21 @@ div.semi > p{
 }
 
 div.semi{
+    position: static;
     background-color: bisque;
     height: 120%;
 }
 
 div.final{
+    position: static;
     background-color: rgb(103, 93, 124);
 }
 
 h4{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
     color: cornsilk;
-    height: 6%;  
 
 }
 div.fin{
@@ -70,7 +143,7 @@ div.fin{
     letter-spacing:1px;
 }
 #menu{
-    margin-left: -470px;
+    margin-left: -2px;
 }
    
  
@@ -79,9 +152,9 @@ div.fin{
     float:left;
     margin:0;
     padding:0;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(236, 205, 101); 
-    font-size: 22px; 
+    font-size: 30px; 
     list-style-type: none;
 }
 
