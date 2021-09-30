@@ -11,7 +11,7 @@ div.logy{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    height: 40px;
+    height: 50px;
     background-color: rgb(0, 0, 0);
 
 }
@@ -21,8 +21,8 @@ div.mitad{
     background-color: rgb(103, 93, 124);
     text-align: center;
     font-weight: 300;
-    height: 120px;
-    margin-top: -100px;
+    height: 150px;
+    margin-top: -140px;
 }
 
 div.tema{
@@ -31,7 +31,7 @@ div.tema{
     justify-content: space-evenly;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(103, 93, 124);
-    margin-left: 25%;
+    margin-left: 15%;
     height: 40%;
     border-style: groove;
     border: 4px groove rgb(255, 197, 139);
@@ -196,7 +196,7 @@ div.absoluto3 {
     width: 300px;
     height: 290px;
     top: -83px;
-    margin-left: 480px;
+    margin-left: 770px;
     z-index: 3;
 }
   
@@ -208,7 +208,7 @@ div.absoluto1 {
     width: 500px;
     height: 480px;
     top: -485px;
-    margin-left: 800px;
+    margin-left: 1100px;
     z-index: 4;
 }
   
@@ -225,8 +225,8 @@ div.absoluto4 {
     position: relative;
     border: 4px groove;
     border-radius: 6mm;
-    background-color: rgb(238, 238, 171);
-    margin: auto;
+    background-color: rgba(238, 238, 171, 0.76);
+    margin-left: 700px;
     top: 100px;
     width: 1000px;
     height: 450px;
@@ -235,7 +235,7 @@ div.absoluto4 {
  
 .div6 {
     position: relative;
-    left: 10px;
+    margin-left: 50px;
     border-radius: 6mm;
     border: 4px groove;
     background-color:rgba(0, 0, 0, 0.664);
