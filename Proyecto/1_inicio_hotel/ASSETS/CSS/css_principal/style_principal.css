@@ -39,7 +39,7 @@ div.tema{
     justify-content: space-evenly;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(103, 93, 124);
-    margin-left: 15%;
+    margin-left: 20%;
     height: 80%;
     border-style: groove;
     border: 4px groove rgb(255, 197, 139);
@@ -159,4 +159,29 @@ div.fin{
     color: cornsilk;
     text-align: center;
 }
+
+div.letra{
+    position: static;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(5, 5, 5);
+    padding: 50px;
+    width: 55%;
+    margin-left: 450px;
+    background-color: rgba(255, 255, 255, 0.685);
+  
+}
+div.lety{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+
+
+
 
