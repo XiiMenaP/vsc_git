@@ -1,24 +1,8 @@
 body{
-    background-image: url(https://s7d2.scene7.com/is/image/ritzcarlton/plsrt-aerial-view-50751215?$XlargeViewport100pct$);
+    background-image: url(https://content.r9cdn.net/himg/61/5a/57/leonardo-2709339-FB_HERO_COLOR_CORRECTED_PW_O-242652.jpg);
     background-repeat: no-repeat;
 }
 
-div.reserva{
-    position: relative;
-    justify-content: center;
-    background-color: rgba(103, 93, 124, 0.89);
-    border-style: double;
-    color: seashell;
-    width: 40%;
-    margin-left: 820px;
-    padding: 15px;
-    top: 220px;
-}
-
-div.mitad{
-    margin-bottom: 20%;
-   
-}
 
 div.logy{
     display: flex;
@@ -31,25 +15,9 @@ div.logy{
 
 }
 
-div.tema{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(103, 93, 124);
-    margin-left: 25%;
-    height: 40%;
-    border-style: groove;
-    border: 4px groove rgb(255, 197, 139);
-    
-  
-}
-
-
 button{
     display: inline-block;
     width: 90px;
-    top: 20px;
     text-align: center;
     transition: all 0.3s ease;
     box-shadow: 0px 0px 30px 5px antiquewhite;
@@ -64,12 +32,29 @@ button:hover{
 
 }
 
+div.tema{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(103, 93, 124);
+    margin-left: 15%;
+    height: 80%;
+    border-style: groove;
+    border: 4px groove rgb(255, 197, 139);
+    margin-top: 10%;
+    
+    
+  
+}
+
 #menu ul a {
-    display:block;
+    display: block;
     color:#fff;
     text-decoration:none;
     font-weight:400;
-    font-size:15px;
+    font-size:21px;
     padding:10px;
     font-family:Arial, Helvetica, sans-serif;
     text-transform:uppercase;
@@ -97,7 +82,7 @@ button:hover{
    
 
 #menu ul ul {
-    display:none;
+    display: inline-block;
     position:absolute;
     top:100%;
     left:0;
@@ -168,8 +153,10 @@ h5{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
 }
+
 div.fin{
     background-color: black;
     color: cornsilk;
     text-align: center;
 }
+
